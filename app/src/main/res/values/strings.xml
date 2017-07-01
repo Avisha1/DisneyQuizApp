@@ -20,6 +20,7 @@
     <string name="q4_2">To be rescued from drowning</string>
     <string name="q4_3">To marry Jasmine</string>
     <string name="q4_4">To free the genie</string>
+    <string name="q4_5">Get chest hair</string>
 
     <string name="validation_error">You must answer all questions!!</string>
 
@@ -28,7 +29,4 @@
     <string name="question_3">Who gave his voice in Aladdin first movie? Can be more than one</string>
     <string name="question_4">What were Aladdin’s three wishes?</string>
     <string name="question_5">Which year the Mulan first movie came out?</string>
-    <string name="q4_5">To get some chest hair</string>
-
-
 </resources>

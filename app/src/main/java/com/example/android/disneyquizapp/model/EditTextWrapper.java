@@ -7,6 +7,7 @@ import android.widget.EditText;
  */
 
 public class EditTextWrapper {
+
     public EditText edt;
     public String answer;
 }

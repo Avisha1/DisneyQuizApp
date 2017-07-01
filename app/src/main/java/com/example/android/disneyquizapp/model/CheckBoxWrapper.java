@@ -10,5 +10,4 @@ public class CheckBoxWrapper {
 
     public CheckBox chk;
     public Boolean isCorrect;
-
 }

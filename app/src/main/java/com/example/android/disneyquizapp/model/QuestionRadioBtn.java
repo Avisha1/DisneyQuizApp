@@ -55,6 +55,4 @@ public class QuestionRadioBtn implements QuestionInterface {
     public void reset() {
         rdBtnList.clear();
     }
-
-
 }

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Disney Quiz App</string>
+
+    <string name="q1_1">Elza</string>
+    <string name="q1_2">Rapunzel</string>
+    <string name="q1_3">Merida</string>
+    <string name="q1_4">Pocahontas</string>
+
+    <string name="q2_1">Mickey Mouse</string>
+    <string name="q2_2">Winnie the Pooh</string>
+    <string name="q2_3">Tinkerbell</string>
+    <string name="q2_4">Mr. Potato Head</string>
+
+    <string name="q3_1">Scott Weinger</string>
+    <string name="q3_2">Robin Williams</string>
+    <string name="q3_3">Gilbert Gottfried</string>
+    <string name="q3_4">Robert De Niro</string>
+
+    <string name="q4_1">To become a prince</string>
+    <string name="q4_2">To be rescued from drowning</string>
+    <string name="q4_3">To marry Jasmine</string>
+    <string name="q4_4">To free the genie</string>
+
+    <string name="validation_error">You must answer all questions!!</string>
+
+    <string name="question_1">Which one of these princesses is NOT part of Disney’s official princess lineup?</string>
+    <string name="question_2">What popular Disney character makes an appearance as a stuffed animal in Frozen?</string>
+    <string name="question_3">Who gave his voice in Aladdin first movie? Can be more than one</string>
+    <string name="question_4">What were Aladdin’s three wishes?</string>
+    <string name="question_5">Which year the Mulan first movie came out?</string>
+    <string name="q4_5">To get some chest hair</string>
+
+
+</resources>

@@ -35,7 +35,7 @@ public class QuestionFreeText implements QuestionInterface {
 
         for (EditTextWrapper item : edtWrapperList) {
 
-            Boolean isContainText = !item.edt.getText().toString().isEmpty();
+            Boolean isContainText = !item.edt.getText().toString().trim().isEmpty();
             answer = answer || isContainText;
         }
 
@@ -47,7 +47,7 @@ public class QuestionFreeText implements QuestionInterface {
         Boolean answer = true;
 
         for (EditTextWrapper item : edtWrapperList) {
-            answer = answer && (item.edt.getText().toString().equals(item.answer));
+            answer = answer && (item.edt.getText().toString().trim().equalsIgnoreCase(item.answer.trim()));
         }
 
         return answer;

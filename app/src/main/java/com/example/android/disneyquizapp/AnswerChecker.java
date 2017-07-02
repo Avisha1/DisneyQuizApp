@@ -1,18 +1,23 @@
 package com.example.android.disneyquizapp;
 
+import android.content.Context;
+
 /**
  * Created by avishai on 7/1/2017.
  */
 
-public class AnswerChecker {
+class AnswerChecker {
 
     private int questionsCounter = 0;
     private int correctAnswerCounter = 0;
 
-    public AnswerChecker() {
+    private Context context;
+
+    public AnswerChecker(Context context) {
+        this.context = context;
     }
 
-    public void calculate(Boolean... args) {
+    void calculate(Boolean... args) {
         questionsCounter = args.length;
 
         for (Boolean b : args) {
@@ -22,15 +27,16 @@ public class AnswerChecker {
         }
     }
 
-    public String showAnswer() {
+    String showAnswer() {
         String resultString;
+        String numOutOfNum = correctAnswerCounter + " " + context.getString(R.string.out_of) + " " + questionsCounter;
 
         if (questionsCounter == correctAnswerCounter) {
-            resultString = "Congratulations! 100% you were correct " + correctAnswerCounter + " out of " + questionsCounter + "\nYou are a true Disney fan.";
+            resultString = context.getString(R.string.excellent) + " " + numOutOfNum + "\n" + context.getString(R.string.excellent2);
         } else if (((double) correctAnswerCounter / questionsCounter) > 0.5) {
-            resultString = "Nice! You answered correctly " + correctAnswerCounter + " out of " + questionsCounter + "\nYou will do better next time.";
+            resultString = context.getString(R.string.average) + " " + numOutOfNum + "\n" + context.getString(R.string.average2);
         } else {
-            resultString = "Nahhh.. You answered correctly " + correctAnswerCounter + " out of " + questionsCounter + "\nGo watch the movies again";
+            resultString = context.getString(R.string.lame) + " " + numOutOfNum + "\n" + context.getString(R.string.lame2);
         }
 
         return resultString;

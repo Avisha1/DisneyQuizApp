@@ -29,4 +29,14 @@
     <string name="question_3">Who gave his voice in Aladdin first movie? Can be more than one</string>
     <string name="question_4">What were Aladdin’s three wishes?</string>
     <string name="question_5">Which year the Mulan first movie came out?</string>
+
+    <string name="excellent">Congratulations! 100% you were correct</string>
+    <string name="excellent2">You are a true Disney fan.</string>
+    <string name="average">Nice! You answered correctly</string>
+    <string name="average2">You will do better next time.</string>
+    <string name="lame">Nahhh.. You answered correctly</string>
+    <string name="lame2">Go watch the movies again!</string>
+    <string name="out_of">out of</string>
+
+
 </resources>

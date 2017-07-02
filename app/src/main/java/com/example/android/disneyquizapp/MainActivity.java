@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //check if correct
-        AnswerChecker ansChecker = new AnswerChecker();
+        AnswerChecker ansChecker = new AnswerChecker(this);
         ansChecker.calculate(
                 q1.isCorrectAnswer(),
                 q2.isCorrectAnswer(),
